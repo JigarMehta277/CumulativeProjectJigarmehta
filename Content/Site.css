@@ -8,17 +8,20 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
 nav {
     overflow: hidden;
     margin-bottom: 30px;
 }
 
+/*This is the css for the link which allows user to go back to list|*/
 .navlink {
     float: left;
     text-decoration: none;
     color: blueviolet;
 }
 
+/*This is the css for delete button which allows user to delete the user content*/
 .delbutton {
     display: block;
     margin: 0 auto;
@@ -27,6 +30,7 @@ nav {
     border-radius: 3px;
 }
 
+/*This is the css for the delete link which takes user to the delete confirmation page */
 .dellink {
     float: right;
     text-decoration: none;

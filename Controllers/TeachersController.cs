@@ -139,7 +139,7 @@ namespace CumulativeProjectJigarmehta.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Returns a function to delete teacher
         /// </summary>
         /// <param name="id"></param>
         /// <example>POST : /api/Teachers/DeleteTeacher/3</example>
@@ -164,6 +164,10 @@ namespace CumulativeProjectJigarmehta.Controllers
             Conn.Close();
         }
 
+        /// <summary>
+        /// This function allows user to add teacher
+        /// </summary>
+        /// <param name="NewTeacher"></param>
         [HttpPost]
         public void AddTeacher([FromBody] Teacher NewTeacher)
         {
